@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.801);
+}
+nav{
+    display: flex;
+    padding: 8px 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav i{
+    color: grey;
+    font-weight: bold;
+}
+nav img{
+    width: 50px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size:13px ;
+}
+.nav-links ul li:hover{
+    background-color: black;
+    border-radius: 3px;
+}
+.banner{
+    height: 350px;
+    width: 100%;
+    background:url(Images/blrback2.jpg);
+    background-repeat: no-repeat;    
+}
+.text{
+    width: 90%;
+    color: rgba(255, 255, 255, 0.699);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text h1{
+    font-size: 40px;
+    color: rgb(247, 0, 0);
+}
+.text p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: normal;
+    
+}
+.text  button{
+    padding: 10px;
+    background-color: rgb(22, 241, 33);
+    border-radius: 10px;
+}
+.text button a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.row{
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 60px;
+}
+.photo-col{
+    flex-basis: 29%;
+    background:white;
+    border:2px solid gray;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.photo-col figcaption{
+    text-align: left;
+    padding-left:27px;
+    padding-top: 5px;
+    font-size: 10px;
+    font-family: monospace;
+    
+}
+.photo-col figcaption i{
+    color: rgb(172, 162, 162);
+}
+.row-review{
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.review-col{
+    flex-basis: 29%;
+    background:white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+.review-col figcaption{
+    text-align:left;
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;  
+     
+}
+.review-col figcaption img{
+    border-radius: 50%;
+}
+.review-col figcaption b{
+    color: gray;
+}
+.row-advt{
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.advt-col{
+    flex-basis: 20%;
+}
+#fid1,#fid2,#fid3,#fid4{
+    width:12.5%;
+    height:258px ;
+    float:left;
+    background-color: black;
+    color: white;
+    line-height: 25pt;
+    font-size: 20px;
+    
+}
+#fid5{
+    width: 50%;
+    height: 258px;
+    float: right;
+    background-color: black;
+    color: white;
+}
+.clr{
+    clear: both;
+}
+#twitter,#facebook,#v{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+   
+}
+
+#hid5{
+    text-align:right;
+    padding: 20px;
+}
+
+
